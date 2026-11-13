@@ -1,0 +1,31 @@
+!!python/object:nuplan_scripts.utils.config.FrameCentralConfig
+central_log: 2021.06.03.17.06.58_veh-35_02571_02742
+central_tokens:
+- ff94ab2c81a25745
+- 7240e214b6bc5b44
+- bd4dcb8371d85f1d
+- e1d5cb7ac38f5038
+- 8486dcafaee75d76
+- 8fb11d5808355072
+- 495a149c042a5636
+- a708f8c8db805496
+- f512480c969a5eab
+- 76b4369e21a15a7a
+- 0c5365f52bac5785
+city: us-nv-las-vegas-strip
+collect_raw: false
+data_root: data/auto_reconstruction/data/navtest_available_merged_pointcloud_good
+exclude_bad_registration: true
+expand_buffer: 0
+interval: 1
+multi_traversal_mode: 'off'
+reconstruct_buffer: 10
+road_block: !!python/tuple
+- 664406
+- 3998371
+- 664450
+- 3998459
+road_block_name: 2021.06.03.17.06.58_veh-35_02571_02742-ff94ab2c81a25745
+selected_videos: !!python/tuple []
+split: test
+use_colmap_ba: false

@@ -1,0 +1,37 @@
+!!python/object:nuplan_scripts.utils.config.FrameCentralConfig
+central_log: 2021.09.09.14.18.22_veh-48_01298_01492
+central_tokens:
+- cbbf59be3a4e555d
+- bee76fa92b735b00
+- 9300251ea784552f
+- ec4557ae01265fc4
+- 73bc1971e0735c22
+- 4d3807c5fd5d573f
+- cd72b9f6b03f5f41
+- ee6d63d4e8b35518
+- bf2a9740fda85514
+- f958234391c05be3
+- 1d0c8aa56b6350bf
+- 90c6b53ec4a252bc
+- ff76d319bd9558f9
+- 5a35f8abb51c5303
+- 4940444d511c5594
+- f004b5e4838455f3
+- cfbf3f55398f5fc6
+city: us-ma-boston
+collect_raw: false
+data_root: data/auto_reconstruction/data/navtest_available_merged_pointcloud_good
+exclude_bad_registration: true
+expand_buffer: 0
+interval: 1
+multi_traversal_mode: 'off'
+reconstruct_buffer: 10
+road_block: !!python/tuple
+- 331159
+- 4690814
+- 331223
+- 4690890
+road_block_name: 2021.09.09.14.18.22_veh-48_01298_01492-cbbf59be3a4e555d
+selected_videos: !!python/tuple []
+split: test
+use_colmap_ba: false

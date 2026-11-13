@@ -1,0 +1,23 @@
+!!python/object:nuplan_scripts.utils.config.FrameCentralConfig
+central_log: 2021.08.16.14.23.37_veh-45_00015_00132
+central_tokens:
+- 5fadffd02da256e5
+- efca142f8d93518b
+- b8cf57333fc65efe
+city: us-pa-pittsburgh-hazelwood
+collect_raw: false
+data_root: data/auto_reconstruction/data/navtest_available_merged_pointcloud_good
+exclude_bad_registration: true
+expand_buffer: 0
+interval: 1
+multi_traversal_mode: 'off'
+reconstruct_buffer: 10
+road_block: !!python/tuple
+- 589099
+- 4474638
+- 589159
+- 4474691
+road_block_name: 2021.08.16.14.23.37_veh-45_00015_00132-5fadffd02da256e5
+selected_videos: !!python/tuple []
+split: test
+use_colmap_ba: false

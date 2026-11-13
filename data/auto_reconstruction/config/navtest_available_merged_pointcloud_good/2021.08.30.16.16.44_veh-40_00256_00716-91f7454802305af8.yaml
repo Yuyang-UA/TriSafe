@@ -1,0 +1,23 @@
+!!python/object:nuplan_scripts.utils.config.FrameCentralConfig
+central_log: 2021.08.30.16.16.44_veh-40_00256_00716
+central_tokens:
+- 91f7454802305af8
+- a752896c43c2526e
+- b2872eb05a455f97
+city: us-ma-boston
+collect_raw: false
+data_root: data/auto_reconstruction/data/navtest_available_merged_pointcloud_good
+exclude_bad_registration: true
+expand_buffer: 0
+interval: 1
+multi_traversal_mode: 'off'
+reconstruct_buffer: 10
+road_block: !!python/tuple
+- 330906
+- 4690814
+- 330962
+- 4690881
+road_block_name: 2021.08.30.16.16.44_veh-40_00256_00716-91f7454802305af8
+selected_videos: !!python/tuple []
+split: test
+use_colmap_ba: false
